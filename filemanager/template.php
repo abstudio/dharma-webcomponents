@@ -1,0 +1,1 @@
+<div dharma-web-component="filemanager" class="brahma-visualpack-filemanager" data-id="<?=$model['id']?>" name="" <?=(!empty($model['attributes']) ? " ".arrayToAttrs(' ', $model['attributes']) : "")?>></div>

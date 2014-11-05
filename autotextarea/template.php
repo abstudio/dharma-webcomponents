@@ -1,0 +1,1 @@
+<textarea dharma-web-component="autotextarea"  <?=(!empty($model['attributes']) ? " ".arrayToAttrs($model['attributes']) : "")?>><?=$model['content']?></textarea>

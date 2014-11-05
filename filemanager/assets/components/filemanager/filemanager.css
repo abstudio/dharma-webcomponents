@@ -1,0 +1,274 @@
+.brahma-visualpack-filemanager {
+	position: relative;
+}
+
+.brahma-visualpack-filemanager ul.filesArea {
+	overflow: hidden;
+	display:table;
+	list-style: none;
+	padding: 0px;
+	margin:0 0 5px 0;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: none;
+	clear:both;
+}
+
+.brahma-visualpack-filemanager ul.filesArea li {
+	padding: 24px 24px;
+	height: 162px;
+	float: left;
+	margin: 0 1px 1px 1px;
+}
+
+.brahma-visualpack-filemanager ul.filesArea li.file {
+	background-color: rgba(3, 3, 3, 0.14);
+}
+
+
+.brahma-visualpack-filemanager ul.filesArea li.folder {
+	background-color: rgba(255, 255, 255, 0.03);
+}
+
+.brahma-visualpack-filemanager ul.filesArea li.selected {
+	background-color:#002D44;
+}
+
+.brahma-visualpack-filemanager ul.filesArea li.selected img {
+	opacity:0.75;
+	filter:alpha(opacity=75);
+}
+
+.brahma-visualpack-filemanager ul.filesArea li div.subscribe {
+	font-size: 12px;
+	color: #8e877c;
+	font-weight: normal;
+	margin: 10px auto 0 auto;
+	height:20px;
+	line-height: 14px;
+	height: 14px;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 120px;
+	text-align:center;
+}
+
+.brahma-visualpack-filemanager ul.filesArea li.selected div.subscribe {
+	color:white;
+}
+
+.brahma-visualpack-filemanager ul.filesArea li > div.thumb {
+	width:90px;
+	height:90px;
+	text-align:center;
+	margin:0 auto;
+	cursor:pointer;
+	
+}
+
+.brahma-visualpack-filemanager ul.filesArea li.image > div.thumb {
+	background-color: #fff;
+	-webkit-box-shadow: 3px 8px 10px 0px rgba(0, 14, 0, 0.47);
+	-moz-box-shadow:    3px 8px 10px 0px rgba(0, 14, 0, 0.47);
+	box-shadow:         3px 8px 10px 0px rgba(0, 14, 0, 0.47);
+}
+
+.brahma-visualpack-filemanager ul.filesArea li.image > div.thumb > img {
+	display:none;
+}
+
+.brahma-visualpack-filemanager div.location {
+	display:table;
+	overflow: hidden;
+	height:34px;
+	width:100%;
+	position: relative;
+}
+
+.brahma-visualpack-filemanager div.location > table {
+	padding:0px;
+	width:100%;
+}
+
+.brahma-visualpack-filemanager div.location > table:after {
+}
+
+.brahma-visualpack-filemanager div.location > table td.backurl {
+	display:none;
+	width:34px;
+	height:100%;
+	vertical-align: middle;
+}
+
+.brahma-visualpack-filemanager div.location > table td.backurl a.goback-icon {
+	background:url(images/goback-icon.png) center center no-repeat transparent;
+	width:100%;
+	height:23px;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.brahma-visualpack-filemanager div.location td.input {
+	display:table;
+	font-size:14px;
+	color:#505057;
+	height:100%;
+	width:100%;
+	
+}
+
+.brahma-visualpack-filemanager div.location td.input > div {
+	padding:6px 0;
+}
+
+.brahma-visualpack-filemanager div.location td.input > div > div {
+	border:1px rgba(128, 128, 128, 0.19) solid;
+	border-radius: 3px;
+}
+
+.brahma-visualpack-filemanager div.location td.input > div > div > div {
+	padding:0 12px;
+}
+
+.brahma-visualpack-filemanager div.controls {
+	padding: 1px 0;
+	margin-bottom: 3px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	float:left;
+	
+}
+
+.brahma-visualpack-filemanager div.controls ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+.brahma-visualpack-filemanager div.controls ul:after {
+	content: "";
+	display:block;
+	width:100%;
+	clear:both;
+}
+
+.brahma-visualpack-filemanager div.controls ul li {
+	float:left;
+	background-color:rgba(3, 3, 3, 0.14);
+	margin:0 3px 0 0;
+}
+
+.brahma-visualpack-filemanager div.controls ul li.selected {
+	background-color:#002D44;
+}
+
+.brahma-visualpack-filemanager-modal {
+	background-color:rgba(5,5,5,1);
+	border-radius: 12px;
+	padding:12px;
+	-webkit-box-shadow: 0px 10px 24px -5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 10px 24px -5px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 10px 24px -5px rgba(50, 50, 50, 0.75);
+	width:600px;
+}
+
+.brahma-visualpack-filemanager-overlay {
+	background-color:rgba(0,0,0,0.6);
+}
+
+.brahma-visualpack-filemanager-modal > div {
+	padding:10px !important;
+}
+
+.brahma-visualpack-filemanager-modal > div img.preview {
+	width:580px;
+}
+
+.brahma-visualpack-filemanager-modal > div > div {
+	position:relative;
+}
+
+.brahma-visualpack-filemanager-modal span.close {
+	position:absolute;
+	top:-30px;
+	right:-30px;
+}
+
+/* Metro icons */
+a.elbora-vcl-themes-metro-icon {
+	background-position:center center;
+	background-repeat: no-repeat;
+	background-size:60%;
+}
+
+a.elbora-vcl-themes-metro-icon > img.glow { display:none; }
+a.elbora-vcl-themes-metro-icon > img.default { display:block; }
+
+.elbora-vcl-themes-metro-icon32x32 {
+	text-decoration:none;
+	width:32px;
+	height:32px;
+	display:block;
+}
+
+.elbora-vcl-themes-metro-icon32x32-add {
+	background-image:url(images/metro-icon-add-dark.png);
+}
+.elbora-vcl-themes-metro-icon32x32-add:hover {
+	background-image:url(images/metro-icon-add-dark-glow.png);
+}
+
+.elbora-vcl-themes-metro-icon32x32-addfolder {
+	background-image:url(images/metro-icon-newfolder-dark.png);
+}
+.elbora-vcl-themes-metro-icon32x32-addfolder:hover {
+	background-image:url(images/metro-icon-newfolder-dark-glow.png);
+}
+
+.elbora-vcl-themes-metro-icon32x32-list {
+	background-image:url(images/metro-icon-list-dark.png);
+}
+.elbora-vcl-themes-metro-icon32x32-list:hover {
+	background-image:url(images/metro-icon-list-dark-glow.png);
+}
+
+.elbora-vcl-themes-metro-icon32x32-delete {
+	background-image:url(images/metro-icon-delete-dark.png);
+}
+.elbora-vcl-themes-metro-icon32x32-delete:hover {
+	background-image:url(images/metro-icon-delete-dark-glow.png);
+}
+
+.elbora-vcl-themes-metro-icon32x32-use {
+	background-image:url(images/metro-icon-use-dark.png);
+}
+.elbora-vcl-themes-metro-icon32x32-use:hover {
+	background-image:url(images/metro-icon-use-dark-glow.png);
+}
+
+.elbora-vcl-themes-bold-icon32x32-close {
+	background-image:url(images/bold-icon-close-dark.png);
+	transition:transform 0.35s ease;
+	transform:scale(0.7);
+}
+.elbora-vcl-themes-bold-icon32x32-close:hover {
+	transform:scale(1);
+}
+
+.elbora-vcl-themes-metro-icon-filetype {
+	width:90px;
+	height:90px;
+	display:inline-block;
+	background-position:center center;
+	background-repeat: no-repeat;
+}
+
+.elbora-vcl-themes-metro-icon-filetype-folder {
+	background-image:url(images/metro-icon-folder-dark.png);
+}
+.elbora-vcl-themes-metro-icon-filetype-folder:hover {
+	background-image:url(images/metro-icon-folder-dark-glow.png);
+}

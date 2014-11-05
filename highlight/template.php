@@ -1,0 +1,1 @@
+<pre><code<?=(isset($model['attributes']['type']) ? " class=\"".$model['attributes']['type']."\"" : "")?>><?=$model['content']?></code></pre>

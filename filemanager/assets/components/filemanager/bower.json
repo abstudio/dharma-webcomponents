@@ -1,0 +1,27 @@
+{
+  "name": "filemanager",
+  "version": "1.0.0",
+  "homepage": "https://github.com/morulus/filemanager",
+  "authors": [
+    "Morulus <vladimirmorulus@gmail.com>"
+  ],
+  "description": "Interface for managing files",
+  "main": [
+    "filemanager.js",
+    "filemanager.css"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "textarea",
+    "jquery",
+    "plugin",
+    "autosize"
+  ],
+  "license": "MIT",
+  "dependencies": {
+        "jquery": ">=1.7.1",
+        "jquery.tie": "latest"
+   }
+}

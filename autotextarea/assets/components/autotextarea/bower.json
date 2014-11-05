@@ -1,0 +1,24 @@
+{
+  "name": "autotextarea",
+  "version": "1.0.0",
+  "homepage": "https://github.com/morulus/autotextarea",
+  "authors": [
+    "Morulus <vladimirmorulus@gmail.com>"
+  ],
+  "description": "Make textarea autosize by innertext",
+  "main": "autotextarea.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "textarea",
+    "jquery",
+    "plugin",
+    "autosize"
+  ],
+  "license": "MIT",
+  "dependencies": {
+        "jquery": ">=1.7.1",
+        "jquery.tie": "latest"
+   }
+}
